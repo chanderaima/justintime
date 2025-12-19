@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkjustintime=globalThis.webpackChunkjustintime||[]).push([[1903],{1912(t){t.exports=JSON.parse('{"blogBasePath":"/justintime/blog","blogTitle":"Blog","authorsListPath":"/justintime/blog/authors"}')}}]);
