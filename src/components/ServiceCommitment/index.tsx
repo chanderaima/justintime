@@ -11,7 +11,7 @@ const items = [
 
 export default function ServiceCommitment(): ReactNode {
   return (
-    <section id="commitment" className={styles.section} style={{backgroundImage: `url(${useBaseUrl('/img/truck-bg.svg')})`}}>
+    <section id="commitment" className={styles.section}>
       <div className={styles.overlay}>
         <div className={styles.container}>
           <Heading as="h2">Our Service Commitment</Heading>

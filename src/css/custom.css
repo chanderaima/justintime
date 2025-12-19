@@ -6,28 +6,28 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #0b6efd;
+  --ifm-color-primary-dark: #095edb;
+  --ifm-color-primary-darker: #0749b7;
+  --ifm-color-primary-darkest: #05358f;
+  --ifm-color-primary-light: #2e8fff;
+  --ifm-color-primary-lighter: #5aa4ff;
+  --ifm-color-primary-lightest: #8ec9ff;
   --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-}
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.08);
+} 
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
-}
+  --ifm-color-primary: #4fb3ff;
+  --ifm-color-primary-dark: #3ba6ff;
+  --ifm-color-primary-darker: #2b8fe6;
+  --ifm-color-primary-darkest: #196fb3;
+  --ifm-color-primary-light: #6ed0ff;
+  --ifm-color-primary-lighter: #8ee6ff;
+  --ifm-color-primary-lightest: #bff3ff;
+  --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.06);
+} 
 
 /* Header/Nav: enabled with slim Contact CTA */
 /* Styling for header CTA button in the navbar */
@@ -43,7 +43,7 @@
   border-radius: 999px;
   padding: 0.45rem 0.9rem;
   text-decoration: none;
-  box-shadow: 0 6px 18px rgba(46,133,85,0.14);
+  box-shadow: 0 6px 20px rgba(11,110,253,0.12);
 }
 
 /* Reduce hero top padding slightly to account for header presence */
@@ -51,14 +51,35 @@
 
 /* Header CTA button styling */
 .header-cta .button {
-  background-color: var(--ifm-color-primary);
+  background: linear-gradient(90deg, var(--ifm-color-primary), var(--ifm-color-primary-light));
   color: white;
   border-radius: 999px;
   padding: 0.6rem 1rem;
   border: none;
+  box-shadow: 0 8px 28px rgba(11,110,253,0.12);
 }
 
 /* Simple hero background helper */
 .hero--primary {
-  background: linear-gradient(180deg, #f6fbf8 0%, #ffffff 100%);
+  background: linear-gradient(180deg, #f0f6ff 0%, #ffffff 100%);
+  background-image: linear-gradient(180deg, rgba(14,63,135,0.03), rgba(255,255,255,0)), url('/img/hero.svg');
+  background-repeat: no-repeat;
+  background-position: right -40px top 20px;
 }
+
+/* Body subtle background */
+body {
+  background: linear-gradient(180deg,#fbfcff 0%, #ffffff 100%);
+}
+
+/* Footer tweaks for a deep-blue look */
+.footer {
+  background: linear-gradient(180deg,#06203a 0%, #063b5a 100%);
+  color: #cfeeff;
+}
+.footer a { color: #b9e3ff }
+.footer a:hover { color: #ffffff }
+
+/* Section subtle accent */
+.sectionAlt { border-top: 1px solid rgba(11,110,253,0.06); }
+

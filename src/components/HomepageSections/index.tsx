@@ -5,6 +5,7 @@ import CoreServices from '@site/src/components/CoreServices';
 import FleetStrength from '@site/src/components/FleetStrength';
 import TrustedBy from '@site/src/components/TrustedBy';
 import ComplianceBlock from '@site/src/components/ComplianceBlock';
+import WhyPartnerWithUs from '@site/src/components/WhyPartnerWithUs';
 import ServiceCommitment from '@site/src/components/ServiceCommitment';
 import PartnerCTA from '@site/src/components/PartnerCTA';
 import ContactForm from '@site/src/components/ContactForm';
@@ -20,6 +21,7 @@ export default function HomepageSections(): React.ReactNode {
       <FleetStrength />
       <TrustedBy />
       <ComplianceBlock />
+      <WhyPartnerWithUs />
       <ServiceCommitment />
       <section id="coverage" className={styles.sectionAlt}>
         <div className={styles.container}>

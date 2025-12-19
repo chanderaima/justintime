@@ -5,5 +5,5 @@
 @media (max-width: 768px) { .complianceGrid { grid-template-columns: 1fr; } .sideImage { margin-top: 1rem; } }
 .formLike { display:grid; gap:0.75rem; margin-top:1rem }
 .row { display:flex; gap:1rem; background:#fff; padding:1rem; border-radius:8px; align-items:flex-start; box-shadow:0 4px 12px rgba(0,0,0,0.04) }
-.num { font-weight:700; color:#fff; background:#2e8555; width:52px; height:52px; display:flex; align-items:center; justify-content:center; border-radius:8px }
+.num { font-weight:700; color:#fff; background:var(--ifm-color-primary); width:52px; height:52px; display:flex; align-items:center; justify-content:center; border-radius:8px }
 @media (max-width:700px) { .row { flex-direction:row } }
