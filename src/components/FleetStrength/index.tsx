@@ -1,6 +1,7 @@
 import type {ReactNode} from 'react';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 export default function FleetStrength(): ReactNode {
   return (
@@ -18,7 +19,7 @@ export default function FleetStrength(): ReactNode {
             </ul>
           </div>
           <div className={styles.imageCard}>
-            <img src="/img/grab-W_UiSLqthaU-unsplash.jpg" alt="Fleet" />
+            <img src={useBaseUrl('/img/grab-W_UiSLqthaU-unsplash.jpg')} alt="Fleet" />
           </div>
         </div>
       </div>

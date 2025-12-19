@@ -1,6 +1,7 @@
 import type {ReactNode} from 'react';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 export default function DeliveringExcellence(): ReactNode {
   return (
@@ -8,7 +9,7 @@ export default function DeliveringExcellence(): ReactNode {
       <div className={styles.container}>
         <div className={styles.cardRow}>
           <div className={styles.imageCard}>
-            <img src="/img/brett-jordan-phUtWl8RyFE-unsplash.jpg" alt="Delivering Excellence" />
+            <img src={useBaseUrl('/img/brett-jordan-phUtWl8RyFE-unsplash.jpg')} alt="Delivering Excellence" />
           </div>
           <div className={styles.textCard}>
             <Heading as="h2">Delivering Excellence Across Kochi</Heading>

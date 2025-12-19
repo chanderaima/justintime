@@ -1,6 +1,7 @@
 import type {ReactNode} from 'react';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 const items = [
   { num: '01', title: 'Firm Registration', text: 'Legally registered partnership firm with all documentation in order' },
@@ -29,7 +30,7 @@ export default function ComplianceBlock(): ReactNode {
             </div>
           </div>
           <div className={styles.sideImage}>
-            <img src="/img/handy-wicaksono-brizG9kR6qI-unsplash.jpg" alt="Compliance documentation" />
+            <img src={useBaseUrl('/img/handy-wicaksono-brizG9kR6qI-unsplash.jpg')} alt="Compliance documentation" />
           </div>
         </div>
       </div>

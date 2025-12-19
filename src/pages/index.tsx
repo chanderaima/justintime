@@ -10,8 +10,9 @@ import styles from './index.module.css';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
+  const banner = useBaseUrl('/img/banner.jpg');
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
+    <header className={clsx('hero hero--primary', styles.heroBanner)} style={{backgroundImage: `url(${banner})`}}>
       <div className="container">
         <Heading as="h1" className="hero__title">
           {siteConfig.title}

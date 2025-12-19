@@ -1,6 +1,7 @@
 import type {ReactNode} from 'react';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 const items = [
   { key: '14+', title: 'Years of Service', text: 'Safety First - Containerized SUV transport methods protect your cargo.' },
@@ -10,11 +11,11 @@ const items = [
 
 export default function ServiceCommitment(): ReactNode {
   return (
-    <section id="commitment" className={styles.section} style={{backgroundImage: 'url(/img/truck-bg.svg)'}}>
+    <section id="commitment" className={styles.section} style={{backgroundImage: `url(${useBaseUrl('/img/truck-bg.svg')})`}}>
       <div className={styles.overlay}>
         <div className={styles.container}>
           <Heading as="h2">Our Service Commitment</Heading>
-          <img className={styles.truckImg} src="/img/wynand-van-poortvliet-kWUZKKBR2Ag-unsplash.jpg" alt="Truck on road" />
+          <img className={styles.truckImg} src={useBaseUrl('/img/wynand-van-poortvliet-kWUZKKBR2Ag-unsplash.jpg')} alt="Truck on road" />
           <div className={styles.grid}>
             {items.map((it) => (
               <div className={styles.card} key={it.key}>

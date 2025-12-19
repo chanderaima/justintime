@@ -1,6 +1,7 @@
 import type {ReactNode} from 'react';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 const items = [
   { title: 'Fully Compliant', icon: '/img/icon-compliant.svg', text: 'Complete statutory compliance including GST, ESI, Income Tax and Labour Welfare.' },
@@ -17,7 +18,7 @@ export default function WhyChoose(): ReactNode {
           {items.map((it) => (
             <div className={styles.card} key={it.title}>
               <div className={styles.iconWrap}>
-                <img src={it.icon} alt={it.title} />
+                <img src={useBaseUrl(it.icon)} alt={it.title} />
               </div>
               <h3>{it.title}</h3>
               <p>{it.text}</p>
