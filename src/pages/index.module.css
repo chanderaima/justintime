@@ -8,10 +8,19 @@
   text-align: center;
   position: relative;
   overflow: hidden;
-  /* banner background image is set inline in the React component so it respects site baseUrl */
+  /* banner background image is set from CSS variables populated inline in the React component */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-image: var(--banner-image);
+}
+
+/* responsive: use smaller image for narrow viewports if available */
+@media (max-width: 800px) {
+  .heroBanner {
+    background-image: var(--banner-small-image, var(--banner-image));
+    background-position: center top;
+  }
   color: #ffffff; /* ensure readable text on photo */
 }
 
