@@ -1,0 +1,6 @@
+.section { padding: 2.5rem 0; }
+.container { max-width:1100px; margin:0 auto; padding:0 1rem }
+.row { display:flex; gap:1.5rem; align-items:center }
+.logoCard { background:#fff; padding:1rem 1.25rem; border-radius:8px; box-shadow:0 6px 18px rgba(0,0,0,0.04) }
+.logoCard img { height:48px }
+@media (max-width:700px) { .row { flex-direction:column } }

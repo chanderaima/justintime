@@ -1,0 +1,58 @@
+We need to build a single page site (see below). The design of the page should be that each top-level heading should be a div or a section on the home page. Or we could have each section described below as a independent block that gets pulled into the root home page. The contents of each block should be based on the input provided below. Each blocl need to have an impressive design element that with look every catchy for a courier compamy
+
+Review the content and the desgin inputs provided below and rework this site.
+
+
+Banner (With a background pic that will blend with the theme of a courier company)
+	Just In Time Services
+	Your trusted partner for reliable surface cargo and last-mile delivery solutions in Kochi since 2009
+	(Get a Quote) (Call us now) - Buttons 
+Delivering Excellence Across Kochi (two cards design - on box has borderless pic and the other is a card with the text)
+	14+ Years of Expertise
+	Since 2009, Just In Time Services has been a professionally managed partnership firm specializing in surface cargo and last-mile logistics. We've built our reputation on reliability, compliance, and customer satisfaction.
+	Our commitment to operational excellence and regulatory compliance sets us apart in the competitive logistics landscape of Kochi and surrounding regions.
+Why Choose Just In Time Services (2-4 four card design with each card having a large icon representing the content in the card)
+	Fully Compliant
+	Trusted Partners
+	Timely Delivery
+Our Core Services (Three card design with a icon for each box)
+	Surface Cargo Delivery - Specialized surface cargo transportation services throughout Kochi and neighboring areas. Our containerized approach ensures your goods arrive safely and on schedule, every time.
+	Last-Mile Logistics - Efficient final-leg delivery solutions connecting distribution centers to end customers. We handle the critical last mile with precision and care.
+	Regional Distribution - Comprehensive coverage across Kochi metro and surrounding regions with optimized routing for maximum efficiency and cost-effectiveness.
+Our Fleet Strength (two card desgin)
+	10 Vehicles Ready to Serve
+	Our diverse fleet of commercial vehicles is specifically selected to meet varied cargo requirements. From compact deliveries to larger loads, we have the right vehicle for every job.
+	All vehicles are maintained to the highest standards, ensuring reliability and safety across every delivery.
+	Tata 407 - Heavy-duty cargo transport
+	Tempo Traveller - Versatile medium loads
+	Tata Ace - Compact urban delivery
+	Tata Intra - Efficient light cargo
+Trusted by Industry Leaders (two card desgin) 
+	Blue Dart / DHL
+	OM Logistics
+Complete Regulatory Compliance (show look like a form)
+	01 - Firm Registration: Legally registered partnership firm with all documentation in order
+	02 - GST Compliant: Full GST registration and compliance for transparent operations
+	03 - ESI & Income Tax: Employee State Insurance and Income Tax compliance maintained
+	04 - Labour Welfare: Labour Welfare Board registration and adherence to all labour laws
+	All statutory and regulatory requirements are maintained with rigorous attention to detail, ensuring peace of mind for our clients and partners.
+Our Service Commitment (section should have a truck backgroud for the whole block. three card desing with the digits 14+ | 10 | 2 oversized outside these cards - below with corresponding text)
+	Safety First - Containerized SUV transport methods protect your cargo throughout the journey. Our vehicles are equipped and maintained for secure transportation.
+	On-Time Performance - Punctuality is our promise. We understand that timely delivery impacts your business operations and customer satisfaction.
+	Regional Expertise - Deep knowledge of Kochi and surrounding areas ensures optimal routing and efficient delivery across all service zones.
+	
+	14+ Years of Service | 10 Fleet | 2 Major Partners
+Service Coverage Area (pick an appropriate design for this block)
+	Comprehensive Kochi Coverage - Our operations span the entire Kochi metropolitan area and extend to neighboring regions, providing seamless connectivity for your cargo needs.
+	- Kochi city center and suburbs
+	- Industrial zones and business parks
+	- Port areas and logistics hubs
+	- Surrounding districts and towns
+
+	Urban Delivery - Efficient navigation of city traffic and congested areas
+	Industrial Zones - Direct access to manufacturing and distribution centers
+	Regional Routes - Extended coverage to peripheral areas and nearby towns
+Partner With Us Today (two cards design - on box has borderless pic and the other is a card with the text)
+	Ready to Experience Reliable Logistics?
+	Whether you're an e-commerce business, manufacturer, or distributor, Just In Time Services offers the reliability and professionalism your operations demand.
+	Contact us today to discuss your surface cargo and last-mile delivery requirements. Let our 14+ years of experience work for your business success.

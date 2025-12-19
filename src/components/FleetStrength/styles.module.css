@@ -1,0 +1,6 @@
+.sectionAlt { padding: 3rem 0; background: #fbfdfb; }
+.container { max-width:1100px; margin:0 auto; padding:0 1rem }
+.row { display:grid; grid-template-columns: 1fr 1fr; gap:1.25rem; align-items:center }
+.statCard { padding:1.25rem; background:#fff; border-radius:8px; box-shadow:0 6px 18px rgba(0,0,0,0.04) }
+.imageCard img { width:100%; border-radius:8px }
+@media (max-width:900px) { .row { grid-template-columns: 1fr } }

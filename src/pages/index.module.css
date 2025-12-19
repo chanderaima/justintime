@@ -1,0 +1,52 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  padding: 6rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  /* banner background image - replace `static/img/banner.jpg` to update hero art */
+  background-image: url('/img/banner.jpg');
+  /* prefer modern WebP when available */
+  background-image: -webkit-image-set(url('/img/banner.webp') type('image/webp') 1x, url('/img/banner.jpg') type('image/jpeg') 1x);
+  background-image: image-set(url('/img/banner.webp') type('image/webp') 1x, url('/img/banner.jpg') type('image/jpeg') 1x);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #ffffff; /* ensure readable text on photo */
+}
+
+/* responsive: use smaller image for narrow viewports if available */
+@media (max-width: 800px) {
+  .heroBanner {
+    background-image: -webkit-image-set(url('/img/banner-small.webp') type('image/webp') 1x, url('/img/banner-small.jpg') type('image/jpeg') 1x);
+    background-image: image-set(url('/img/banner-small.webp') type('image/webp') 1x, url('/img/banner-small.jpg') type('image/jpeg') 1x);
+    background-position: center top;
+  }
+}
+
+/* subtle dark overlay for photo background to improve contrast */
+.heroBanner::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.08));
+  pointer-events: none;
+}
+
+.heroBanner .container { position: relative; z-index: 2; }
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 3rem 0;
+    background-position: center top;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
