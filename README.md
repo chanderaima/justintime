@@ -1,7 +1,7 @@
 # Just In Time Services — Docs Site
 
 This repository is a Docusaurus site scaffolded and adapted into a **single-page marketing site** for Just In Time Services.
-
+  
 ---
 
 ## Quick start ⚡
