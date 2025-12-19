@@ -225,6 +225,35 @@ To edit the navbar:
 - Update the `items` array in `docusaurus.config.ts` under the `navbar` property.
 - The CTA styling is in `src/css/custom.css` (search for `.header-cta`) — modify padding, color, or remove the `className` to revert to a plain link.
 
+## Deployment to GitHub Pages 🚀
+
+This project is configured to deploy to GitHub Pages. Make sure your `docusaurus.config.ts` is set with your GitHub info before deploying:
+
+- `url`: `https://<your-github-username>.github.io`
+- `baseUrl`: `/your-repo-name/`
+- `organizationName`: `<your-github-username>`
+- `projectName`: `your-repo-name`
+
+Quick one-time deploy (manual):
+
+1. Commit and push your changes to `main`:
+   - `git add . && git commit -m "Deploy config" && git push origin main`
+2. From PowerShell (Windows):
+   - `$env:GIT_USER = 'your-github-username' ; npm run deploy`
+   - This builds the site and pushes the static output to the `gh-pages` branch.
+3. In GitHub → Settings → Pages, ensure the source is set to the `gh-pages` branch (root). After a few minutes your site should be live at `https://<your-github-username>.github.io/<your-repo-name>/`.
+
+Automatic deploy via GitHub Actions (recommended):
+
+- I can add a workflow (`.github/workflows/deploy.yml`) that builds and deploys the site on every push to `main`. This automates future updates and is the recommended approach for continuous deployment.
+
+Troubleshooting tips:
+
+- If GitHub Pages shows only the README, the Pages source may be set to `main` (root) or `/docs` — switch it to the `gh-pages` branch (root) or run `npm run deploy` to create `gh-pages`.
+- If assets are 404ing after deployment, check that `baseUrl` and `url` in `docusaurus.config.ts` match the repository name and GitHub Pages URL.
+- If you want me to set up the GitHub Action workflow and push it, tell me and I’ll add it for you.
+
+
 ---
 
 ## Free artwork resources (courier / logistics)
