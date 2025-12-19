@@ -38,7 +38,7 @@ export default function HomepageSections(): React.ReactNode {
         <div className={styles.container}>
           <Heading as="h2">Contact & Quote</Heading>
           <p>
-            <strong>Phone:</strong> +91-91XXXXXXXX<br />
+            <strong>Phone:</strong> +91-X1XXXXXXXX<br />
             <strong>Email:</strong> info@justintimeservices.example
           </p>
           <div style={{marginTop: '1rem'}}>
